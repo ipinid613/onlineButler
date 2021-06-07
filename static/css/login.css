@@ -1,0 +1,44 @@
+.wrap {
+    margin: auto;
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.login {
+    margin-top: 8vh;
+    font-size: 20px;
+    border: black 1px solid;
+    padding: 70px;
+}
+
+.pw {
+    margin-top: 3.5vh;
+}
+
+.login input {
+    width: 400px;
+    height: 35px;
+}
+
+.login_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    margin: auto;
+}
+
+.login button {
+    margin-top: 5vh;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
