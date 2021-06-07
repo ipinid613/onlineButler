@@ -11,53 +11,49 @@ a {
     text-decoration: none;
 }
 
-.wrap {
-    margin: auto;
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+.write {
+    width: 650px;
+    margin: 10px auto;
     display: block;
-    width: 600px;
-    height: 600px;
-    margin-top: 15vh;
-    text-align: center;
 }
 
-h1 {
-    font-size: 40px;
+#input_file {
+    display: none;
 }
 
-.login {
-    margin-top: 8vh;
-    font-size: 20px;
-    border: black 1px solid;
-    padding: 70px;
+.file_img {
+    width: 650px;
+    height: 400px;
 }
 
-.pw {
-    margin-top: 3.5vh;
+.write_text {
+    width: 650px;
+    height: 150px;
+    margin-top: 20px;
+    resize: vertical;
 }
 
-.login input {
-    width: 400px;
-    height: 35px;
-}
-
-.login_btns {
+.write_btns {
+    margin: 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 330px;
-    margin: auto;
 }
 
-.login button {
-    margin-top: 5vh;
-    width: 140px;
-    height: 40px;
+.write_btns button {
+    width: 150px;
+    height: 35px;
     border: none;
     border-radius: 20px;
 }
 
 footer {
-    width: 100%;
     border-top: 1px solid black;
 }
 

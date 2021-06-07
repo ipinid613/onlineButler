@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/write.css">
+
+    <title>랜선집사 | 글쓰기</title>
 </head>
 <body>
+    <header>
+        <div>랜선집사</div>
+    </header>
+    <div class="write">
+        <div>
+            <label for="input_file">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+            </label>
+            <input type="file" accept="image/gif, image/jpeg, imgag/png" id="input_file"/>
+        </div>
+        <img class="file_img" src="../static/img/noimg.jpg">
+        <textarea class="write_text"></textarea>
+        <div class="write_btns">
+            <button type="button">작성하기</button>
+            <button type="button">취소</button>
+        </div>
+    </div>
+    <footer>
+        <div>Contact Us</div>
+        <div>김나영 : <a href="https://velog.io/@skdud4659">https://velog.io/@skdud4659</a></div>
+        <div>김태현 : <a href="https://devtaehyundiary.tistory.com/">https://devtaehyundiary.tistory.com/</a></div>
+        <div>변정섭 : <a href="#"></a></div>
+        <div>전영진 : <a href="#"></a></div>
+    </footer>
 
+    <script src="/static/js/write.js"></script>
 </body>
 </html>
