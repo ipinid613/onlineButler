@@ -25,15 +25,27 @@ body {
 }
 
 .signUp {
+  width: 100%;
+  height: 100%;
   padding-top: 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
-.formGroup {
+label {
   padding: 15px 0px;
+  width: 350px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register {
+  width: 130px;
+  text-align: end;
 }
 
 input {
@@ -41,14 +53,14 @@ input {
 }
 
 .btns {
-  width: 100%;
+  width: 50%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 button {
-  width: 100%;
-  height: 50px;
+  width: 100px;
+  height: 35px;
 }
